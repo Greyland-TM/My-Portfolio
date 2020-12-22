@@ -27,6 +27,7 @@ class App extends Component{
                 <div className="page-content" />
             </Content>
         </Layout>
+        <p>Hello World!</p>
     </div>
     )
   }
