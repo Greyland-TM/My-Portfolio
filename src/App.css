@@ -1,13 +1,14 @@
+
+/* Head */
 .header-color {
-  background: #20002c;  /* fallback for old browsers */
+  background: gray;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #20002c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-color: #2a2a2b; */
+  background-color: #d4f1ff;
   text-align: center;
   position: fixed;
   top: 0;
@@ -16,14 +17,18 @@
   height: 100%;
 }
 
-.projects-grid {
-  display: flex;
-  margin-top: 85px;
+.tabs-color{
+  border-left: 2px solid #3b255a; 
 }
 
+.tabs-color:hover {
+  background-color: #9668a7;
+}
+
+/* Contact */
 .contact-body {
   margin: auto;
-  background: gray;
+  background-color: #dcdfff;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -60,37 +65,42 @@
   padding-right: 5rem;
 }
 
+/* Landing/Home Page */
 .avatar-img {
-  height: 200px;
-  padding-top: 5em;
+  width: 200px;
+  border-radius: 30%;
+  margin-top: 25px;
 }
 
 .banner-text {
   background-color: none;
   opacity: .8;
-  width: 60%;
+  width: 75%;
   margin: auto;
   border-radius: 1opx;
-  color: white;
+  color: Black;
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .banner-text hr {
   border-top: 5px dotted;
   width: 100%;
   margin: auto;
+  padding-top: 15px;
 }
 
 .banner-text p {
-  color: white;
+  color: black;
   padding: 1em;
-  font-size: 20px;
-  text-align: left;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  height: 30px;
 }
 
 .social-links {
@@ -101,16 +111,31 @@
 }
 
 .social-links a {
-  color: white;
+  color: black;
   font-size: 5em;
   padding: 8px;
 }
 
 /* Resume Page css */
+.resume-grid {
+  background-color: #dcdfff;
+}
+
 .resume-right-col {
-  background: white;
-  color: black;
+  /* background-color: #c3c7ff;
+  color: black; */
   padding: 2em;
   border-left: 3px solid #833fb2;
+}
+
+/* Projects */
+.category-tabs {
+  background-color: #dcdfff;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+  margin-top: 85px;
 }
 

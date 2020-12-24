@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
+import myPic from './ProfilePic.jpg'
+// import '../App.css';
 
 class Resume extends Component {
     render() {
         return (
-            <Grid>
+            <Grid className='resume-grid'>
                 <Cell col={4}>
                     <div style={{textAlign: 'center'}}>
                         <img
-                            src='https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png'
+                            src={myPic}
                             alt='Avatar'
-                            style={{height: '150px'}}
+                            style={{height: '150px', borderRadius: '100%'}}
                         ></img>
                     </div>
 
                     <h4 style={{paddingTop: '1em'}}>Greyland Miller</h4>
-                    <h4 style={{color: 'gray'}}>Programmer</h4>
+                    <h4 style={{color: 'black'}}>Programmer</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}></hr>
                     <p>I am a sofware engineering student at Portland State University. I have been coding and developing software
                         for the past 3 years on my own. And recently recieved a promotion at Columbia Helicopters to the position of 
@@ -32,7 +34,7 @@ class Resume extends Component {
                     <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}></hr>
                 </Cell>
                 <Cell className='resume-right-col' col={8}>
-                    <Education></Education>
+                    <Education ></Education>
                 </Cell>
             </Grid>
         )

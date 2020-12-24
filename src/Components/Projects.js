@@ -77,7 +77,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className='catigory-tabs'>
+            <div>
                 <Tabs activeTab={this.state.activeTab} ripple>
                     <Tab>React</Tab>
                     <Tab>VBA</Tab>
@@ -85,9 +85,9 @@ class Projects extends Component {
                     {/* <Tab>BI Dev</Tab> */}
                 </Tabs>
                     
-                    <Grid >
+                    <Grid className='category-tabs'>
                         <Cell col={12}>
-                            <div className='content'>{this.toggleCategories()}</div>
+                            <div>{this.toggleCategories()}</div>
                         </Cell>
                     </Grid>
             </div>

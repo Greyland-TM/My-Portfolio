@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import myPic from './ProfilePic.jpg'
 
 class Contact extends Component {
     render() {
@@ -9,9 +10,9 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Greyland Miller</h2>
                         <img
-                            src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
+                            src={myPic}
                             alt='Avatar'
-                            style={{height: '250px'}}
+                            style={{height: '250px', borderRadius: '45%'}}
                         />
                         <p style={{width: '75%', margin: 'auto', paddingTop: '2em'}}>
                             My name is Greyland and here is my contact userform. I check my emails daily and will respond as quickly as I am able.
