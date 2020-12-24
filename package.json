@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Greyland-TM.github.io/portfolio-app",
-  "name": "portfolio-app",
+  "homepage": "http://Greyland-TM.github.io/My-Portfolio",
+  "name": "My-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npmrunbuild",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

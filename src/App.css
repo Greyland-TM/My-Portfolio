@@ -38,7 +38,6 @@
   height: 550px;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
@@ -105,5 +104,13 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: white;
+  color: black;
+  padding: 2em;
+  border-left: 3px solid #833fb2;
 }
 
