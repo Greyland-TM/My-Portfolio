@@ -9,10 +9,10 @@ class App extends Component{
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title="Title" scroll>
+            <Header className="header-color" title="The Magnificant G" scroll>
                 <Navigation>
-                    <Link to='/portfoliO-app'>Home</Link>
-                    <Link to="/AboutMe">About Me</Link>
+                    <Link to='/portfolio-app'>Home</Link>
+                    {/* <Link to="/AboutMe">About Me</Link> */}
                     <Link to="/Resume">Resume</Link>
                     <Link to="/Projects">Projects</Link>
                     <Link to="/Contact">Contact</Link>
@@ -20,8 +20,8 @@ class App extends Component{
             </Header>
             <Drawer title="Title">
                 <Navigation>
-                    <Link to='/portfoliO-app'>Home</Link>
-                    <Link to="/About Me">About Me</Link>
+                    <Link to='/portfolio-app'>Home</Link>
+                    {/* <Link to="/About Me">About Me</Link> */}
                     <Link to="/Resume">Resume</Link>
                     <Link to="/Projects">Projects</Link>
                     <Link to="/Contact">Contact</Link>
@@ -32,7 +32,6 @@ class App extends Component{
                 <Main/>
             </Content>
         </Layout>
-        <p>Hello World!</p>
     </div>
     )
   }
