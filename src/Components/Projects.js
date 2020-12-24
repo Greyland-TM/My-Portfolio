@@ -73,33 +73,12 @@ class Projects extends Component {
                 </div>
             )
         }
-        // else if (this.state.activeTab === 3) {
-        //     return(
-        //         <div className='projects-grid'>
-        //         <ProjectCard
-        //             langues='Testing' 
-        //             url='url() center / cover'
-        //             text='Here is Project #1 of 3 react projects I want to develope and present.'
-        //         ></ProjectCard>
-        //         <ProjectCard
-        //             langues='Testing' 
-        //             url='url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'
-        //             text='Here is Project #2 of 3 react projects I want to develope and present.'
-        //         ></ProjectCard>
-        //         <ProjectCard
-        //             langues='Testing' 
-        //             url='url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'
-        //             text='Here is Project #3 of 3 react projects I want to develope and present.'
-        //         ></ProjectCard>
-        //         </div>
-        //     )
-        // }
     }
 
     render() {
         return (
             <div className='catigory-tabs'>
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
+                <Tabs activeTab={this.state.activeTab} ripple>
                     <Tab>React</Tab>
                     <Tab>VBA</Tab>
                     <Tab>Python</Tab>
